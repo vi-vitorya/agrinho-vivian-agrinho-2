@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    font-family: "Playfair Display", serif;
+    background-color: black;
+    color: white;
+    gap: 10px;
+    padding: 0  20px;
+}
+
+* {
+    margin: 0%;
+    
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section {
+    position: relative;
+
+
+
+}
+
+p {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+nav img {
+    width: 100px;
+
+}
+
+nav {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav a {
+    color:snow;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+nav a:hover {
+    color:white;
+    background-color:greenyellow;
+}
+
+.emma{
+    height: auto;
+    width: 150px;
+}
+.Norman{
+    height: auto;
+    width: 150px;
+}
+.Ray{
+    height: auto;
+    width: 150px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    height: 50px;
+    background-color: black;
+
+}
+
+.logo {
+    height: auto;
+    width: 24px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+footer a {
+    transition: 0.2;
+}
+
+footer a:hover{ 
+    color: greenyellow;
+}
+
+
